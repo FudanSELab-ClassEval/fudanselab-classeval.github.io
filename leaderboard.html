@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap" rel="stylesheet">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>ClassEval Leaderboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- favicon.svg -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💐</text></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+  <div id="content" class="container-fluid d-flex flex-column align-items-center gap-3">
+    <h1 class="text-nowrap mt-5">💐 ClassEval Leaderboard</h1>
+    <h3 class="fw-light text-nowrap">
+        <small id="warning">First class-level code generation benchmark</small>
+        <br/>
+        <small>to evaluate LLMs in more real-world software development scenarios.<br></small></h2>
+    <div class="d-flex flex-row justify-content-center gap-3 buttonContainer">
+      <a href="https://github.com/FudanSELab/ClassEval"><img
+          src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+          alt="github" class="img-fluid"></a>
+      <a href="https://huggingface.co/datasets/FudanSELab/ClassEval"><img
+          src="https://img.shields.io/badge/🤗Huggingface-lightsalmon.svg?style=for-the-badge"
+          alt="github" class="img-fluid"></a>
+      <a href="https://conf.researchr.org/details/icse-2024/icse-2024-research-track/219/Evaluating-Large-Language-Models-in-Class-Level-Code-Generation"><img
+          src="https://img.shields.io/badge/Paper-ICSE'24-purple.svg?style=for-the-badge" alt="paper"
+          class="img-fluid"></a>
+    </div>
+
+    <!-- <div class="d-flex flex-row justify-content-center gap-1 mt-3 mb-0">
+      <p> &#129303; </p>
+      <a href="https://github.com/evalplus/evalplus/issues/new?assignees=&labels=model+eval&projects=&template=model_eval_request.yml&title=%F0%9F%92%A1+%5BREQUEST%5D+-+%3CMODEL_NAME%3E">File a request</a>
+      <p>to add your models on our leaderboard!</p>
+    </div> -->
+
+    <!-- Line Chart -->
+    <div id="lineChartContainer" class="container-fluid d-flex flex-row">
+        <canvas  id="chart"></canvas>
+    </div>
+
+    <!-- table -->
+    <div class="container-fluid d-flex flex-row flex-nowrap" id="tableContainer">
+    </div>
+
+    <div id = "notes">
+      <h3>📝 Notes</h3>
+      <p class="inline-block mt-3">
+        <ol>
+          <li>All samples are generated from scratch using our <a href="https://github.com/FudanSELab/ClassEval">codebase</a>, where the raw generations can also be found <a href="https://github.com/FudanSELab/ClassEval/tree/master/output/model_output">here</a>.</li>
+          <li>By default, models are ranked according to pass@1 using greedy decoding. The results for other pass@k metrics are available <a href="https://github.com/FudanSELab/ClassEval/blob/master/output/result/pass_at_k_result.json">here</a>.</li>
+          <li>The prompts for three distinct generation methods can be found <a href="https://github.com/FudanSELab/ClassEval/tree/master/generation">here</a>, and generations not following the format are considered incorrect.</li>
+        </ol>
+      </p>
+    </div>
+
+    <div id = "notes">
+      <h3>🤗 Acknowledgement</h3>
+      Thanks for the authors of <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a> for sharing the template source code. In addition to ClassEval leaderboards, it is recommended to comprehensively understand LLM coding ability through a diverse set of benchmarks and leaderboards, such as:
+      <p class="inline-block mt-3">
+        <ol>
+          <li><a href="https://evalplus.github.io/leaderboard.html">EvalPlus Leaderboard</a></li>
+          <li><a href="https://crux-eval.github.io/leaderboard.html">CRUXEval Leaderboard</a></li>
+          <li><a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">Chatbot Arena Leaderboard</a></li>
+          <li><a href="https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard">Big Code Models Leaderboard</a></li>
+          <li><a href="https://infi-coder.github.io/inficoder-eval/">InfiCoder-Eval</a></li>
+          <li><a href="https://leaderboard.tabbyml.com/">TabbyML Leaderboard</a></li>
+        </ol>
+      </p>
+    </div>
+  </div>
+
+  <script src="/get_chart_data.js"></script>
+  <script src="/get_table_data.js"></script>
+
+
+</body>
+
+</html>

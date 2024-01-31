@@ -1,0 +1,13 @@
+{
+    "GPT-4-Turbo": "https://openai.com/",
+    "GPT-3.5-Turbo": "https://openai.com/",
+    "deepseek-coder-6.7b-instruct": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+    "Magicoder-S-DS-6.7B": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B",
+    "CodeLlama-13b-Instruct-hf": "https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf",
+    "starcoder-gpteacher-code-instruct-15B": "https://huggingface.co/GeorgiaTechResearchInstitute/starcoder-gpteacher-code-instruct",
+    "codegeex2-6b": "https://huggingface.co/THUDM/codegeex2-6b",
+    "santacoder-1.1B": "https://huggingface.co/bigcode/santacoder",
+    "WizardCoder-15B-V1.0": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
+    "instruct-codegen-16B": "https://huggingface.co/sahil2801/instruct-codegen-16B",
+    "PolyCoder-2.7B": "https://huggingface.co/NinedayWang/PolyCoder-2.7B"
+}

@@ -1,0 +1,136 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#content {
+    width: 75%;
+}
+
+#tableContainer{
+    margin-top:10px;
+}
+
+#tableContainer label{
+    font-size: larger;
+}
+
+table {
+    font-size: smaller;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+th,td {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+th:last-child,
+td:last-child {
+    border-right: none; /* 最后一列去掉竖格线 */
+}
+
+.table-H th,
+.table-H td{
+    border-right: 1px solid orange !important;  /* 设置竖格线颜色 */
+}
+
+.table-H table{
+    border:3px solid orange !important;
+}
+
+.table-H label{
+    color: orange;
+}
+
+.table-C th,
+.table-C td{
+    border-right: 1px solid green !important;  /* 设置竖格线颜色 */
+}
+
+.table-C table{
+    border:3px solid green !important;
+}
+
+.table-C label{
+    color: green;
+}
+
+.table-I th,
+.table-I td{
+    border-right: 1px solid darkblue !important;  /* 设置竖格线颜色 */
+}
+
+.table-I table{
+    border:3px solid darkblue !important;
+}
+
+.table-I label{
+    color: darkblue;
+}
+
+
+a {
+    padding: 0 !important;
+}
+
+#notes {
+    font-size: 1em;
+}
+
+#notes h3 {
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+#notes li {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 1em;
+}
+
+.form-select {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+    font-size: 1.6vw;
+    }
+
+    #content {
+    width: 100%;
+    margin: 0 10%;
+    }
+
+    h1 {
+    font-size: 2em;
+    }
+
+    h2 {
+    font-size: 1.6em;
+    }
+
+    h3 {
+    font-size: 1.2em;
+    }
+
+    table {
+    font-size: small;
+    }
+}
+
+.buttonContainer{
+    margin: 5px auto;
+}
+
+#chart{
+    height: 400px;
+    margin-top: 30px;
+}
