@@ -1,202 +1,184 @@
 {
     "pass_1": {
-        "GPT-4-Turbo_class_H_t0.2": {
-            "class_partial_success": 0.508,
-            "class_success": 0.376,
-            "fun_partial_success": 0.728542914171657,
-            "fun_success": 0.6283433133732539
-        },
-        "GPT-4-Turbo_method_C_t0.2": {
-            "class_partial_success": 0.446,
-            "class_success": 0.296,
-            "fun_partial_success": 0.6826347305389224,
-            "fun_success": 0.5772455089820359
-        },
-        "GPT-4-Turbo_method_I_t0.2": {
-            "class_partial_success": 0.36199999999999993,
+        "GPT-3.5-Turbo_class_H_t0.2": {
+            "class_partial_success": 0.468,
             "class_success": 0.262,
-            "fun_partial_success": 0.6175648702594814,
-            "fun_success": 0.522554890219561
+            "fun_partial_success": 0.7406374501992031,
+            "fun_success": 0.5776892430278885
+        },
+        "GPT-3.5-Turbo_method_C_t0.2": {
+            "class_partial_success": 0.37799999999999995,
+            "class_success": 0.20800000000000002,
+            "fun_partial_success": 0.7330677290836651,
+            "fun_success": 0.5537848605577689
+        },
+        "GPT-3.5-Turbo_method_I_t0.2": {
+            "class_partial_success": 0.43199999999999994,
+            "class_success": 0.272,
+            "fun_partial_success": 0.7422310756972113,
+            "fun_success": 0.5693227091633467
         },
         "Gemini-Pro_class_H_t0.2": {
-            "class_partial_success": 0.436,
+            "class_partial_success": 0.43800000000000006,
             "class_success": 0.292,
-            "fun_partial_success": 0.6944223107569721,
-            "fun_success": 0.5553784860557769
+            "fun_partial_success": 0.7055776892430279,
+            "fun_success": 0.5589641434262947
         },
         "Gemini-Pro_method_C_t0.2": {
             "class_partial_success": 0.41400000000000015,
             "class_success": 0.18400000000000002,
-            "fun_partial_success": 0.6940239043824705,
-            "fun_success": 0.506374501992032
+            "fun_partial_success": 0.7143426294820723,
+            "fun_success": 0.5179282868525898
         },
         "Gemini-Pro_method_I_t0.2": {
             "class_partial_success": 0.42199999999999993,
             "class_success": 0.22400000000000003,
-            "fun_partial_success": 0.6733067729083674,
-            "fun_success": 0.507171314741036
-        },
-        "GPT-3.5-Turbo_class_H_t0.2": {
-            "class_partial_success": 0.40199999999999997,
-            "class_success": 0.29600000000000004,
-            "fun_partial_success": 0.5848303393213578,
-            "fun_success": 0.5041916167664672
-        },
-        "GPT-3.5-Turbo_method_C_t0.2": {
-            "class_partial_success": 0.304,
-            "class_success": 0.182,
-            "fun_partial_success": 0.6335329341317367,
-            "fun_success": 0.5117764471057884
-        },
-        "GPT-3.5-Turbo_method_I_t0.2": {
-            "class_partial_success": 0.352,
-            "class_success": 0.256,
-            "fun_partial_success": 0.6471057884231537,
-            "fun_success": 0.5289421157684632
+            "fun_partial_success": 0.7007968127490048,
+            "fun_success": 0.5199203187250997
         },
         "Magicoder-S-DS-6.7B_class_H_t0.2": {
-            "class_partial_success": 0.392,
-            "class_success": 0.23200000000000004,
-            "fun_partial_success": 0.5984063745019922,
-            "fun_success": 0.47450199203187277
+            "class_partial_success": 0.4040000000000001,
+            "class_success": 0.24000000000000005,
+            "fun_partial_success": 0.619123505976096,
+            "fun_success": 0.48884462151394453
         },
         "Magicoder-S-DS-6.7B_method_C_t0.2": {
-            "class_partial_success": 0.392,
+            "class_partial_success": 0.396,
             "class_success": 0.19,
-            "fun_partial_success": 0.6928286852589642,
-            "fun_success": 0.5247011952191237
+            "fun_partial_success": 0.7187250996015939,
+            "fun_success": 0.5378486055776894
         },
         "Magicoder-S-DS-6.7B_method_I_t0.2": {
-            "class_partial_success": 0.3560000000000001,
+            "class_partial_success": 0.3680000000000001,
             "class_success": 0.20400000000000001,
-            "fun_partial_success": 0.6011952191235063,
-            "fun_success": 0.4701195219123504
+            "fun_partial_success": 0.6258964143426298,
+            "fun_success": 0.4828685258964141
         },
         "deepseek-coder-6.7b-instruct_class_H_t0.2": {
-            "class_partial_success": 0.472,
+            "class_partial_success": 0.482,
             "class_success": 0.28400000000000003,
-            "fun_partial_success": 0.7199203187251004,
-            "fun_success": 0.562151394422311
+            "fun_partial_success": 0.7374501992031881,
+            "fun_success": 0.5709163346613548
         },
         "deepseek-coder-6.7b-instruct_method_C_t0.2": {
             "class_partial_success": 0.358,
             "class_success": 0.19400000000000003,
-            "fun_partial_success": 0.6529880478087653,
-            "fun_success": 0.49243027888446245
+            "fun_partial_success": 0.6808764940239046,
+            "fun_success": 0.5071713147410362
         },
         "deepseek-coder-6.7b-instruct_method_I_t0.2": {
-            "class_partial_success": 0.352,
-            "class_success": 0.19,
-            "fun_partial_success": 0.6171314741035862,
-            "fun_success": 0.4717131474103588
+            "class_partial_success": 0.36199999999999993,
+            "class_success": 0.19400000000000003,
+            "fun_partial_success": 0.6414342629482077,
+            "fun_success": 0.48406374501992055
         },
         "CodeLlama-13b-Instruct-hf_class_H_t0.2": {
-            "class_partial_success": 0.286,
-            "class_success": 0.18400000000000005,
-            "fun_partial_success": 0.45338645418326723,
-            "fun_success": 0.34302788844621523
+            "class_partial_success": 0.30200000000000005,
+            "class_success": 0.188,
+            "fun_partial_success": 0.4741035856573708,
+            "fun_success": 0.3529880478087651
         },
         "CodeLlama-13b-Instruct-hf_method_C_t0.2": {
-            "class_partial_success": 0.25000000000000006,
-            "class_success": 0.09600000000000002,
-            "fun_partial_success": 0.5804780876494027,
-            "fun_success": 0.3916334661354583
+            "class_partial_success": 0.2799999999999999,
+            "class_success": 0.10799999999999998,
+            "fun_partial_success": 0.609163346613546,
+            "fun_success": 0.4159362549800796
         },
         "CodeLlama-13b-Instruct-hf_method_I_t0.2": {
-            "class_partial_success": 0.030000000000000006,
-            "class_success": 0.008,
-            "fun_partial_success": 0.16892430278884485,
-            "fun_success": 0.0980079681274901
+            "class_partial_success": 0.23,
+            "class_success": 0.11000000000000001,
+            "fun_partial_success": 0.521115537848606,
+            "fun_success": 0.36494023904382483
         },
         "WizardCoder-15B-V1.0_class_H_t0.2": {
             "class_partial_success": 0.17400000000000002,
             "class_success": 0.10800000000000001,
-            "fun_partial_success": 0.27290836653386447,
-            "fun_success": 0.18685258964143436
+            "fun_partial_success": 0.2792828685258964,
+            "fun_success": 0.18924302788844635
         },
         "WizardCoder-15B-V1.0_method_C_t0.2": {
-            "class_partial_success": 0.22799999999999998,
+            "class_partial_success": 0.22999999999999995,
             "class_success": 0.096,
-            "fun_partial_success": 0.5693227091633468,
-            "fun_success": 0.37490039840637446
+            "fun_partial_success": 0.5884462151394426,
+            "fun_success": 0.38565737051792837
         },
         "WizardCoder-15B-V1.0_method_I_t0.2": {
             "class_partial_success": 0.057999999999999996,
             "class_success": 0.024000000000000004,
-            "fun_partial_success": 0.315537848605578,
-            "fun_success": 0.2003984063745021
+            "fun_partial_success": 0.3258964143426299,
+            "fun_success": 0.20637450199203197
         },
         "starcoder-gpteacher-code-instruct-15B_class_H_t0.2": {
             "class_partial_success": 0.15799999999999997,
             "class_success": 0.102,
-            "fun_partial_success": 0.3621513944223106,
-            "fun_success": 0.2123505976095616
+            "fun_partial_success": 0.3701195219123505,
+            "fun_success": 0.21832669322709153
         },
         "starcoder-gpteacher-code-instruct-15B_method_C_t0.2": {
             "class_partial_success": 0.1,
             "class_success": 0.04800000000000001,
-            "fun_partial_success": 0.3768924302788848,
-            "fun_success": 0.2278884462151395
+            "fun_partial_success": 0.39043824701195246,
+            "fun_success": 0.2362549800796814
         },
         "starcoder-gpteacher-code-instruct-15B_method_I_t0.2": {
             "class_partial_success": 0.142,
             "class_success": 0.084,
-            "fun_partial_success": 0.4087649402390435,
-            "fun_success": 0.26055776892430277
+            "fun_partial_success": 0.42151394422310723,
+            "fun_success": 0.26932270916334655
         },
         "instruct-codegen-16B_class_H_t0.2": {
             "class_partial_success": 0.10600000000000001,
             "class_success": 0.057999999999999996,
-            "fun_partial_success": 0.2820717131474104,
-            "fun_success": 0.14701195219123495
+            "fun_partial_success": 0.2892430278884462,
+            "fun_success": 0.15099601593625486
         },
         "instruct-codegen-16B_method_C_t0.2": {
             "class_partial_success": 0.08399999999999999,
             "class_success": 0.027999999999999997,
-            "fun_partial_success": 0.3231075697211155,
-            "fun_success": 0.16414342629482076
+            "fun_partial_success": 0.33625498007968124,
+            "fun_success": 0.17211155378486057
         },
         "instruct-codegen-16B_method_I_t0.2": {
             "class_partial_success": 0.13199999999999998,
             "class_success": 0.064,
-            "fun_partial_success": 0.41394422310756945,
-            "fun_success": 0.250199203187251
+            "fun_partial_success": 0.43426294820717104,
+            "fun_success": 0.25936254980079687
         },
         "codegeex2-6b_class_H_t0.2": {
             "class_partial_success": 0.13399999999999998,
             "class_success": 0.06199999999999999,
-            "fun_partial_success": 0.23824701195219142,
-            "fun_success": 0.15338645418326707
+            "fun_partial_success": 0.24103585657370538,
+            "fun_success": 0.15418326693227108
         },
         "codegeex2-6b_method_C_t0.2": {
             "class_partial_success": 0.008,
             "class_success": 0.006,
-            "fun_partial_success": 0.027091633466135454,
+            "fun_partial_success": 0.02788844621513944,
             "fun_success": 0.015139442231075698
         },
         "codegeex2-6b_method_I_t0.2": {
             "class_partial_success": 0.0,
             "class_success": 0.0,
-            "fun_partial_success": 0.008366533864541833,
+            "fun_partial_success": 0.010358565737051793,
             "fun_success": 0.0
         },
         "santacoder-1.1B_class_H_t0.2": {
             "class_partial_success": 0.013999999999999999,
             "class_success": 0.0,
-            "fun_partial_success": 0.08964143426294821,
-            "fun_success": 0.0051792828685258965
+            "fun_partial_success": 0.09362549800796814,
+            "fun_success": 0.007569721115537849
         },
         "santacoder-1.1B_method_C_t0.2": {
             "class_partial_success": 0.06,
             "class_success": 0.0,
-            "fun_partial_success": 0.41832669322709165,
-            "fun_success": 0.18924302788844616
+            "fun_partial_success": 0.4318725099601594,
+            "fun_success": 0.19521912350597603
         },
         "santacoder-1.1B_method_I_t0.2": {
             "class_partial_success": 0.136,
             "class_success": 0.07999999999999999,
-            "fun_partial_success": 0.49920318725099605,
-            "fun_success": 0.2764940239043826
+            "fun_partial_success": 0.5143426294820718,
+            "fun_success": 0.28207171314741053
         },
         "PolyCoder-2.7B_class_H_t0.2": {
             "class_partial_success": 0.004,
@@ -207,196 +189,196 @@
         "PolyCoder-2.7B_method_C_t0.2": {
             "class_partial_success": 0.03,
             "class_success": 0.0,
-            "fun_partial_success": 0.2513944223107571,
-            "fun_success": 0.06414342629482071
+            "fun_partial_success": 0.26294820717131484,
+            "fun_success": 0.06733067729083665
         },
         "PolyCoder-2.7B_method_I_t0.2": {
             "class_partial_success": 0.02,
             "class_success": 0.012,
-            "fun_partial_success": 0.2868525896414345,
-            "fun_success": 0.11434262948207172
+            "fun_partial_success": 0.29760956175298825,
+            "fun_success": 0.11752988047808764
         }
     },
     "pass_1_greedy": {
         "GPT-4-Turbo_class_H_greedy": {
-            "class_partial_success": 0.5,
-            "class_success": 0.37,
-            "fun_partial_success": 0.716566866267465,
-            "fun_success": 0.624750499001996
+            "class_partial_success": 0.59,
+            "class_success": 0.38,
+            "fun_partial_success": 0.8207171314741036,
+            "fun_success": 0.6752988047808764
         },
         "GPT-4-Turbo_method_C_greedy": {
-            "class_partial_success": 0.46,
-            "class_success": 0.29,
-            "fun_partial_success": 0.6906187624750499,
-            "fun_success": 0.5888223552894212
+            "class_partial_success": 0.51,
+            "class_success": 0.27,
+            "fun_partial_success": 0.7928286852589641,
+            "fun_success": 0.6274900398406374
         },
         "GPT-4-Turbo_method_I_greedy": {
-            "class_partial_success": 0.38,
-            "class_success": 0.29,
-            "fun_partial_success": 0.5948103792415169,
-            "fun_success": 0.5169660678642715
+            "class_partial_success": 0.52,
+            "class_success": 0.33,
+            "fun_partial_success": 0.7749003984063745,
+            "fun_success": 0.6354581673306773
+        },
+        "GPT-3.5-Turbo_class_H_greedy": {
+            "class_partial_success": 0.45,
+            "class_success": 0.25,
+            "fun_partial_success": 0.7410358565737052,
+            "fun_success": 0.5737051792828686
+        },
+        "GPT-3.5-Turbo_method_C_greedy": {
+            "class_partial_success": 0.4,
+            "class_success": 0.23,
+            "fun_partial_success": 0.7450199203187251,
+            "fun_success": 0.5637450199203188
+        },
+        "GPT-3.5-Turbo_method_I_greedy": {
+            "class_partial_success": 0.47,
+            "class_success": 0.3,
+            "fun_partial_success": 0.7529880478087649,
+            "fun_success": 0.5756972111553785
         },
         "Gemini-Pro_class_H_greedy": {
             "class_partial_success": 0.45,
             "class_success": 0.31,
-            "fun_partial_success": 0.7171314741035857,
-            "fun_success": 0.5776892430278885
+            "fun_partial_success": 0.7270916334661355,
+            "fun_success": 0.5796812749003984
         },
         "Gemini-Pro_method_C_greedy": {
             "class_partial_success": 0.43,
             "class_success": 0.21,
-            "fun_partial_success": 0.7091633466135459,
-            "fun_success": 0.5079681274900398
+            "fun_partial_success": 0.7350597609561753,
+            "fun_success": 0.5239043824701195
         },
         "Gemini-Pro_method_I_greedy": {
             "class_partial_success": 0.41,
             "class_success": 0.24,
-            "fun_partial_success": 0.6673306772908366,
-            "fun_success": 0.5199203187250996
-        },
-        "GPT-3.5-Turbo_class_H_greedy": {
-            "class_partial_success": 0.34,
-            "class_success": 0.26,
-            "fun_partial_success": 0.5508982035928144,
-            "fun_success": 0.4630738522954092
-        },
-        "GPT-3.5-Turbo_method_C_greedy": {
-            "class_partial_success": 0.33,
-            "class_success": 0.19,
-            "fun_partial_success": 0.6467065868263473,
-            "fun_success": 0.5249500998003992
-        },
-        "GPT-3.5-Turbo_method_I_greedy": {
-            "class_partial_success": 0.36,
-            "class_success": 0.27,
-            "fun_partial_success": 0.6427145708582834,
-            "fun_success": 0.5329341317365269
+            "fun_partial_success": 0.703187250996016,
+            "fun_success": 0.5398406374501992
         },
         "Magicoder-S-DS-6.7B_class_H_greedy": {
-            "class_partial_success": 0.38,
+            "class_partial_success": 0.39,
             "class_success": 0.22,
-            "fun_partial_success": 0.601593625498008,
-            "fun_success": 0.4800796812749004
+            "fun_partial_success": 0.6254980079681275,
+            "fun_success": 0.4960159362549801
         },
         "Magicoder-S-DS-6.7B_method_C_greedy": {
             "class_partial_success": 0.39,
             "class_success": 0.18,
-            "fun_partial_success": 0.6912350597609562,
-            "fun_success": 0.5278884462151394
+            "fun_partial_success": 0.7111553784860558,
+            "fun_success": 0.5378486055776892
         },
         "Magicoder-S-DS-6.7B_method_I_greedy": {
             "class_partial_success": 0.42,
             "class_success": 0.23,
-            "fun_partial_success": 0.651394422310757,
-            "fun_success": 0.5139442231075697
+            "fun_partial_success": 0.6713147410358565,
+            "fun_success": 0.5219123505976095
         },
         "deepseek-coder-6.7b-instruct_class_H_greedy": {
-            "class_partial_success": 0.48,
+            "class_partial_success": 0.49,
             "class_success": 0.27,
-            "fun_partial_success": 0.7290836653386454,
-            "fun_success": 0.5617529880478087
+            "fun_partial_success": 0.7470119521912351,
+            "fun_success": 0.5717131474103586
         },
         "deepseek-coder-6.7b-instruct_method_C_greedy": {
             "class_partial_success": 0.32,
             "class_success": 0.17,
-            "fun_partial_success": 0.6354581673306773,
-            "fun_success": 0.4820717131474104
+            "fun_partial_success": 0.6573705179282868,
+            "fun_success": 0.4960159362549801
         },
         "deepseek-coder-6.7b-instruct_method_I_greedy": {
             "class_partial_success": 0.34,
             "class_success": 0.18,
-            "fun_partial_success": 0.6075697211155379,
-            "fun_success": 0.4681274900398406
+            "fun_partial_success": 0.6235059760956175,
+            "fun_success": 0.4760956175298805
         },
         "CodeLlama-13b-Instruct-hf_class_H_greedy": {
             "class_partial_success": 0.35,
             "class_success": 0.21,
-            "fun_partial_success": 0.5358565737051793,
-            "fun_success": 0.4103585657370518
+            "fun_partial_success": 0.547808764940239,
+            "fun_success": 0.41832669322709165
         },
         "CodeLlama-13b-Instruct-hf_method_C_greedy": {
             "class_partial_success": 0.3,
             "class_success": 0.11,
-            "fun_partial_success": 0.601593625498008,
-            "fun_success": 0.4203187250996016
+            "fun_partial_success": 0.6155378486055777,
+            "fun_success": 0.4262948207171315
         },
         "CodeLlama-13b-Instruct-hf_method_I_greedy": {
             "class_partial_success": 0.3,
             "class_success": 0.14,
-            "fun_partial_success": 0.5577689243027888,
-            "fun_success": 0.40239043824701193
+            "fun_partial_success": 0.5637450199203188,
+            "fun_success": 0.4043824701195219
         },
         "WizardCoder-15B-V1.0_class_H_greedy": {
             "class_partial_success": 0.13,
             "class_success": 0.08,
-            "fun_partial_success": 0.29880478087649404,
-            "fun_success": 0.19123505976095617
+            "fun_partial_success": 0.30677290836653387,
+            "fun_success": 0.19322709163346613
         },
         "WizardCoder-15B-V1.0_method_C_greedy": {
-            "class_partial_success": 0.2,
+            "class_partial_success": 0.19,
             "class_success": 0.08,
-            "fun_partial_success": 0.5398406374501992,
-            "fun_success": 0.3565737051792829
+            "fun_partial_success": 0.5517928286852589,
+            "fun_success": 0.3605577689243028
         },
         "WizardCoder-15B-V1.0_method_I_greedy": {
             "class_partial_success": 0.08,
             "class_success": 0.03,
-            "fun_partial_success": 0.3247011952191235,
-            "fun_success": 0.2250996015936255
+            "fun_partial_success": 0.3466135458167331,
+            "fun_success": 0.2410358565737052
         },
         "starcoder-gpteacher-code-instruct-15B_class_H_greedy": {
             "class_partial_success": 0.14,
             "class_success": 0.1,
-            "fun_partial_success": 0.3705179282868526,
-            "fun_success": 0.2151394422310757
+            "fun_partial_success": 0.3804780876494024,
+            "fun_success": 0.22111553784860558
         },
         "starcoder-gpteacher-code-instruct-15B_method_C_greedy": {
             "class_partial_success": 0.12,
             "class_success": 0.06,
-            "fun_partial_success": 0.38645418326693226,
-            "fun_success": 0.23705179282868527
+            "fun_partial_success": 0.39641434262948205,
+            "fun_success": 0.24302788844621515
         },
         "starcoder-gpteacher-code-instruct-15B_method_I_greedy": {
             "class_partial_success": 0.16,
             "class_success": 0.09,
-            "fun_partial_success": 0.4302788844621514,
-            "fun_success": 0.2729083665338645
+            "fun_partial_success": 0.4442231075697211,
+            "fun_success": 0.2788844621513944
         },
         "instruct-codegen-16B_class_H_greedy": {
             "class_partial_success": 0.09,
             "class_success": 0.05,
-            "fun_partial_success": 0.27091633466135456,
-            "fun_success": 0.14143426294820718
+            "fun_partial_success": 0.2788844621513944,
+            "fun_success": 0.1454183266932271
         },
         "instruct-codegen-16B_method_C_greedy": {
             "class_partial_success": 0.1,
             "class_success": 0.02,
-            "fun_partial_success": 0.33665338645418325,
-            "fun_success": 0.16533864541832669
+            "fun_partial_success": 0.35258964143426297,
+            "fun_success": 0.17729083665338646
         },
         "instruct-codegen-16B_method_I_greedy": {
             "class_partial_success": 0.14,
             "class_success": 0.08,
-            "fun_partial_success": 0.4163346613545817,
-            "fun_success": 0.24900398406374502
+            "fun_partial_success": 0.4243027888446215,
+            "fun_success": 0.250996015936255
         },
         "codegeex2-6b_class_H_greedy": {
             "class_partial_success": 0.14,
             "class_success": 0.08,
-            "fun_partial_success": 0.23306772908366533,
+            "fun_partial_success": 0.2350597609561753,
             "fun_success": 0.16334661354581673
         },
         "codegeex2-6b_method_C_greedy": {
-            "class_partial_success": 0.01,
+            "class_partial_success": 0.03,
             "class_success": 0.01,
-            "fun_partial_success": 0.02390438247011952,
-            "fun_success": 0.013944223107569721
+            "fun_partial_success": 0.035856573705179286,
+            "fun_success": 0.0199203187250996
         },
         "codegeex2-6b_method_I_greedy": {
-            "class_partial_success": 0.0,
-            "class_success": 0.0,
-            "fun_partial_success": 0.0099601593625498,
-            "fun_success": 0.0
+            "class_partial_success": 0.02,
+            "class_success": 0.01,
+            "fun_partial_success": 0.025896414342629483,
+            "fun_success": 0.01195219123505976
         },
         "santacoder-1.1B_class_H_greedy": {
             "class_partial_success": 0.01,
@@ -407,14 +389,14 @@
         "santacoder-1.1B_method_C_greedy": {
             "class_partial_success": 0.06,
             "class_success": 0.0,
-            "fun_partial_success": 0.4103585657370518,
-            "fun_success": 0.17928286852589642
+            "fun_partial_success": 0.42828685258964144,
+            "fun_success": 0.1892430278884462
         },
         "santacoder-1.1B_method_I_greedy": {
             "class_partial_success": 0.14,
             "class_success": 0.1,
-            "fun_partial_success": 0.5139442231075697,
-            "fun_success": 0.29282868525896416
+            "fun_partial_success": 0.5318725099601593,
+            "fun_success": 0.30278884462151395
         },
         "PolyCoder-2.7B_class_H_greedy": {
             "class_partial_success": 0.0,
@@ -425,184 +407,166 @@
         "PolyCoder-2.7B_method_C_greedy": {
             "class_partial_success": 0.03,
             "class_success": 0.0,
-            "fun_partial_success": 0.2868525896414343,
-            "fun_success": 0.06772908366533864
+            "fun_partial_success": 0.29880478087649404,
+            "fun_success": 0.07171314741035857
         },
         "PolyCoder-2.7B_method_I_greedy": {
             "class_partial_success": 0.02,
             "class_success": 0.02,
-            "fun_partial_success": 0.2968127490039841,
-            "fun_success": 0.11952191235059761
+            "fun_partial_success": 0.30876494023904383,
+            "fun_success": 0.12151394422310757
         }
     },
     "pass_3": {
-        "GPT-4-Turbo_class_H_t0.2": {
-            "class_partial_success": 0.575,
-            "class_success": 0.413,
-            "fun_partial_success": 0.7764471057884231,
-            "fun_success": 0.6744510978043912
+        "GPT-3.5-Turbo_class_H_t0.2": {
+            "class_partial_success": 0.535,
+            "class_success": 0.32899999999999996,
+            "fun_partial_success": 0.8065737051792835,
+            "fun_success": 0.6444223107569719
         },
-        "GPT-4-Turbo_method_C_t0.2": {
-            "class_partial_success": 0.506,
-            "class_success": 0.341,
-            "fun_partial_success": 0.7273453093812374,
-            "fun_success": 0.6229540918163671
+        "GPT-3.5-Turbo_method_C_t0.2": {
+            "class_partial_success": 0.4570000000000001,
+            "class_success": 0.25400000000000006,
+            "fun_partial_success": 0.7806772908366535,
+            "fun_success": 0.5968127490039842
         },
-        "GPT-4-Turbo_method_I_t0.2": {
-            "class_partial_success": 0.424,
-            "class_success": 0.307,
-            "fun_partial_success": 0.6726546906187625,
-            "fun_success": 0.5762475049900201
+        "GPT-3.5-Turbo_method_I_t0.2": {
+            "class_partial_success": 0.4989999999999999,
+            "class_success": 0.314,
+            "fun_partial_success": 0.788446215139442,
+            "fun_success": 0.6121513944223107
         },
         "Gemini-Pro_class_H_t0.2": {
             "class_partial_success": 0.5100000000000001,
             "class_success": 0.337,
-            "fun_partial_success": 0.7561752988047812,
-            "fun_success": 0.6145418326693227
+            "fun_partial_success": 0.766135458167331,
+            "fun_success": 0.6171314741035858
         },
         "Gemini-Pro_method_C_t0.2": {
             "class_partial_success": 0.48800000000000004,
             "class_success": 0.23300000000000004,
-            "fun_partial_success": 0.7472111553784861,
-            "fun_success": 0.5565737051792831
+            "fun_partial_success": 0.7697211155378486,
+            "fun_success": 0.5715139442231079
         },
         "Gemini-Pro_method_I_t0.2": {
             "class_partial_success": 0.491,
             "class_success": 0.29,
-            "fun_partial_success": 0.7290836653386455,
-            "fun_success": 0.5645418326693229
-        },
-        "GPT-3.5-Turbo_class_H_t0.2": {
-            "class_partial_success": 0.477,
-            "class_success": 0.3489999999999999,
-            "fun_partial_success": 0.6758483033932137,
-            "fun_success": 0.5900199600798403
-        },
-        "GPT-3.5-Turbo_method_C_t0.2": {
-            "class_partial_success": 0.337,
-            "class_success": 0.213,
-            "fun_partial_success": 0.6682634730538921,
-            "fun_success": 0.5500998003992015
-        },
-        "GPT-3.5-Turbo_method_I_t0.2": {
-            "class_partial_success": 0.4060000000000001,
-            "class_success": 0.302,
-            "fun_partial_success": 0.6932135728542913,
-            "fun_success": 0.5726546906187622
+            "fun_partial_success": 0.754183266932271,
+            "fun_success": 0.5780876494023905
         },
         "Magicoder-S-DS-6.7B_class_H_t0.2": {
-            "class_partial_success": 0.456,
-            "class_success": 0.277,
-            "fun_partial_success": 0.6749003984063744,
-            "fun_success": 0.5396414342629482
+            "class_partial_success": 0.47200000000000003,
+            "class_success": 0.28700000000000003,
+            "fun_partial_success": 0.6942231075697212,
+            "fun_success": 0.552988047808765
         },
         "Magicoder-S-DS-6.7B_method_C_t0.2": {
-            "class_partial_success": 0.47100000000000003,
+            "class_partial_success": 0.47800000000000004,
             "class_success": 0.249,
-            "fun_partial_success": 0.752191235059761,
-            "fun_success": 0.5878486055776893
+            "fun_partial_success": 0.7766932270916335,
+            "fun_success": 0.6017928286852587
         },
         "Magicoder-S-DS-6.7B_method_I_t0.2": {
-            "class_partial_success": 0.47200000000000003,
+            "class_partial_success": 0.49400000000000005,
             "class_success": 0.269,
-            "fun_partial_success": 0.7231075697211164,
-            "fun_success": 0.5810756972111562
+            "fun_partial_success": 0.7555776892430288,
+            "fun_success": 0.5992031872509969
         },
         "deepseek-coder-6.7b-instruct_class_H_t0.2": {
-            "class_partial_success": 0.5459999999999999,
+            "class_partial_success": 0.5559999999999999,
             "class_success": 0.314,
-            "fun_partial_success": 0.7661354581673308,
-            "fun_success": 0.6127490039840638
+            "fun_partial_success": 0.7840637450199204,
+            "fun_success": 0.6225099601593626
         },
         "deepseek-coder-6.7b-instruct_method_C_t0.2": {
             "class_partial_success": 0.466,
             "class_success": 0.259,
-            "fun_partial_success": 0.7320717131474103,
-            "fun_success": 0.5697211155378487
+            "fun_partial_success": 0.7545816733067728,
+            "fun_success": 0.5850597609561754
         },
         "deepseek-coder-6.7b-instruct_method_I_t0.2": {
-            "class_partial_success": 0.4759999999999999,
-            "class_success": 0.26899999999999996,
-            "fun_partial_success": 0.709163346613546,
-            "fun_success": 0.5547808764940239
+            "class_partial_success": 0.498,
+            "class_success": 0.278,
+            "fun_partial_success": 0.7388446215139444,
+            "fun_success": 0.5715139442231075
         },
         "CodeLlama-13b-Instruct-hf_class_H_t0.2": {
-            "class_partial_success": 0.3939999999999999,
-            "class_success": 0.25,
-            "fun_partial_success": 0.6101593625498005,
-            "fun_success": 0.4697211155378487
+            "class_partial_success": 0.419,
+            "class_success": 0.25799999999999995,
+            "fun_partial_success": 0.63406374501992,
+            "fun_success": 0.4790836653386457
         },
         "CodeLlama-13b-Instruct-hf_method_C_t0.2": {
-            "class_partial_success": 0.3550000000000001,
-            "class_success": 0.143,
-            "fun_partial_success": 0.699402390438247,
-            "fun_success": 0.49282868525896417
+            "class_partial_success": 0.401,
+            "class_success": 0.17300000000000001,
+            "fun_partial_success": 0.7422310756972111,
+            "fun_success": 0.5358565737051791
         },
         "CodeLlama-13b-Instruct-hf_method_I_t0.2": {
-            "class_partial_success": 0.06999999999999999,
-            "class_success": 0.021,
-            "fun_partial_success": 0.29482071713147395,
-            "fun_success": 0.16952191235059752
+            "class_partial_success": 0.37400000000000005,
+            "class_success": 0.19099999999999998,
+            "fun_partial_success": 0.6942231075697212,
+            "fun_success": 0.5129482071713147
         },
         "WizardCoder-15B-V1.0_class_H_t0.2": {
             "class_partial_success": 0.2960000000000001,
             "class_success": 0.172,
-            "fun_partial_success": 0.44621513944223085,
-            "fun_success": 0.31135458167330665
+            "fun_partial_success": 0.45776892430278865,
+            "fun_success": 0.31633466135458155
         },
         "WizardCoder-15B-V1.0_method_C_t0.2": {
             "class_partial_success": 0.33699999999999997,
             "class_success": 0.154,
-            "fun_partial_success": 0.703386454183267,
-            "fun_success": 0.496414342629482
+            "fun_partial_success": 0.7213147410358566,
+            "fun_success": 0.5085657370517928
         },
         "WizardCoder-15B-V1.0_method_I_t0.2": {
             "class_partial_success": 0.131,
             "class_success": 0.05499999999999999,
-            "fun_partial_success": 0.5157370517928287,
-            "fun_success": 0.3428286852589641
+            "fun_partial_success": 0.5308764940239042,
+            "fun_success": 0.35159362549800793
         },
         "starcoder-gpteacher-code-instruct-15B_class_H_t0.2": {
             "class_partial_success": 0.19799999999999998,
             "class_success": 0.12,
-            "fun_partial_success": 0.4091633466135456,
-            "fun_success": 0.25418326693227083
+            "fun_partial_success": 0.4195219123505974,
+            "fun_success": 0.2601593625498007
         },
         "starcoder-gpteacher-code-instruct-15B_method_C_t0.2": {
             "class_partial_success": 0.132,
             "class_success": 0.076,
-            "fun_partial_success": 0.46593625498007973,
-            "fun_success": 0.2926294820717131
+            "fun_partial_success": 0.4810756972111554,
+            "fun_success": 0.301792828685259
         },
         "starcoder-gpteacher-code-instruct-15B_method_I_t0.2": {
             "class_partial_success": 0.18200000000000002,
             "class_success": 0.115,
-            "fun_partial_success": 0.5091633466135458,
-            "fun_success": 0.33426294820717134
+            "fun_partial_success": 0.5207171314741038,
+            "fun_success": 0.3406374501992032
         },
         "instruct-codegen-16B_class_H_t0.2": {
             "class_partial_success": 0.13799999999999998,
             "class_success": 0.078,
-            "fun_partial_success": 0.34223107569721106,
-            "fun_success": 0.19023904382470117
+            "fun_partial_success": 0.3525896414342629,
+            "fun_success": 0.19422310756972105
         },
         "instruct-codegen-16B_method_C_t0.2": {
             "class_partial_success": 0.126,
             "class_success": 0.048,
-            "fun_partial_success": 0.41215139442231064,
-            "fun_success": 0.22988047808764936
+            "fun_partial_success": 0.4288844621513943,
+            "fun_success": 0.2424302788844621
         },
         "instruct-codegen-16B_method_I_t0.2": {
             "class_partial_success": 0.18900000000000003,
             "class_success": 0.10400000000000001,
-            "fun_partial_success": 0.5368525896414342,
-            "fun_success": 0.34482071713147383
+            "fun_partial_success": 0.5575697211155379,
+            "fun_success": 0.35657370517928266
         },
         "codegeex2-6b_class_H_t0.2": {
             "class_partial_success": 0.22,
             "class_success": 0.122,
-            "fun_partial_success": 0.36852589641434236,
-            "fun_success": 0.2589641434262947
+            "fun_partial_success": 0.37171314741035827,
+            "fun_success": 0.26015936254980065
         },
         "codegeex2-6b_method_C_t0.2": {
             "class_partial_success": 0.016,
@@ -613,26 +577,26 @@
         "codegeex2-6b_method_I_t0.2": {
             "class_partial_success": 0.0,
             "class_success": 0.0,
-            "fun_partial_success": 0.0099601593625498,
+            "fun_partial_success": 0.01195219123505976,
             "fun_success": 0.0
         },
         "santacoder-1.1B_class_H_t0.2": {
             "class_partial_success": 0.019,
             "class_success": 0.0,
-            "fun_partial_success": 0.1280876494023904,
-            "fun_success": 0.00597609561752988
+            "fun_partial_success": 0.13406374501992027,
+            "fun_success": 0.0099601593625498
         },
         "santacoder-1.1B_method_C_t0.2": {
             "class_partial_success": 0.09300000000000001,
             "class_success": 0.0,
-            "fun_partial_success": 0.5007968127490039,
-            "fun_success": 0.246613545816733
+            "fun_partial_success": 0.5189243027888444,
+            "fun_success": 0.2555776892430279
         },
         "santacoder-1.1B_method_I_t0.2": {
             "class_partial_success": 0.185,
             "class_success": 0.109,
-            "fun_partial_success": 0.5824701195219123,
-            "fun_success": 0.33884462151394423
+            "fun_partial_success": 0.5996015936254979,
+            "fun_success": 0.34521912350597606
         },
         "PolyCoder-2.7B_class_H_t0.2": {
             "class_partial_success": 0.009000000000000001,
@@ -643,183 +607,165 @@
         "PolyCoder-2.7B_method_C_t0.2": {
             "class_partial_success": 0.036000000000000004,
             "class_success": 0.0,
-            "fun_partial_success": 0.34362549800796804,
-            "fun_success": 0.08645418326693227
+            "fun_partial_success": 0.35737051792828683,
+            "fun_success": 0.09203187250996016
         },
         "PolyCoder-2.7B_method_I_t0.2": {
             "class_partial_success": 0.02,
             "class_success": 0.016,
-            "fun_partial_success": 0.3683266932270918,
-            "fun_success": 0.14760956175298803
+            "fun_partial_success": 0.3814741035856575,
+            "fun_success": 0.15019920318725094
         }
     },
     "pass_5": {
-        "GPT-4-Turbo_class_H_t0.2": {
-            "class_partial_success": 0.59,
-            "class_success": 0.42,
-            "fun_partial_success": 0.7864271457085829,
-            "fun_success": 0.6846307385229541
-        },
-        "GPT-4-Turbo_method_C_t0.2": {
-            "class_partial_success": 0.53,
+        "GPT-3.5-Turbo_class_H_t0.2": {
+            "class_partial_success": 0.57,
             "class_success": 0.36,
-            "fun_partial_success": 0.7425149700598802,
-            "fun_success": 0.6407185628742516
+            "fun_partial_success": 0.8366533864541833,
+            "fun_success": 0.6713147410358565
         },
-        "GPT-4-Turbo_method_I_t0.2": {
-            "class_partial_success": 0.45,
+        "GPT-3.5-Turbo_method_C_t0.2": {
+            "class_partial_success": 0.51,
+            "class_success": 0.27,
+            "fun_partial_success": 0.8007968127490039,
+            "fun_success": 0.6175298804780877
+        },
+        "GPT-3.5-Turbo_method_I_t0.2": {
+            "class_partial_success": 0.52,
             "class_success": 0.33,
-            "fun_partial_success": 0.6946107784431138,
-            "fun_success": 0.5948103792415169
+            "fun_partial_success": 0.8007968127490039,
+            "fun_success": 0.6274900398406374
         },
         "Gemini-Pro_class_H_t0.2": {
             "class_partial_success": 0.54,
             "class_success": 0.35,
-            "fun_partial_success": 0.7709163346613546,
-            "fun_success": 0.6314741035856574
+            "fun_partial_success": 0.7808764940239044,
+            "fun_success": 0.6334661354581673
         },
         "Gemini-Pro_method_C_t0.2": {
             "class_partial_success": 0.51,
             "class_success": 0.25,
-            "fun_partial_success": 0.7629482071713147,
-            "fun_success": 0.5697211155378487
+            "fun_partial_success": 0.7868525896414342,
+            "fun_success": 0.5876494023904383
         },
         "Gemini-Pro_method_I_t0.2": {
             "class_partial_success": 0.51,
             "class_success": 0.32,
-            "fun_partial_success": 0.7390438247011952,
-            "fun_success": 0.5796812749003984
-        },
-        "GPT-3.5-Turbo_class_H_t0.2": {
-            "class_partial_success": 0.49,
-            "class_success": 0.36,
-            "fun_partial_success": 0.7005988023952096,
-            "fun_success": 0.6107784431137725
-        },
-        "GPT-3.5-Turbo_method_C_t0.2": {
-            "class_partial_success": 0.35,
-            "class_success": 0.22,
-            "fun_partial_success": 0.6806387225548902,
-            "fun_success": 0.564870259481038
-        },
-        "GPT-3.5-Turbo_method_I_t0.2": {
-            "class_partial_success": 0.44,
-            "class_success": 0.32,
-            "fun_partial_success": 0.7145708582834331,
-            "fun_success": 0.5968063872255489
+            "fun_partial_success": 0.7649402390438247,
+            "fun_success": 0.5936254980079682
         },
         "Magicoder-S-DS-6.7B_class_H_t0.2": {
-            "class_partial_success": 0.48,
-            "class_success": 0.3,
-            "fun_partial_success": 0.7051792828685259,
-            "fun_success": 0.5657370517928287
+            "class_partial_success": 0.5,
+            "class_success": 0.31,
+            "fun_partial_success": 0.7250996015936255,
+            "fun_success": 0.5796812749003984
         },
         "Magicoder-S-DS-6.7B_method_C_t0.2": {
-            "class_partial_success": 0.5,
+            "class_partial_success": 0.51,
             "class_success": 0.27,
-            "fun_partial_success": 0.7749003984063745,
-            "fun_success": 0.6115537848605578
+            "fun_partial_success": 0.8007968127490039,
+            "fun_success": 0.6274900398406374
         },
         "Magicoder-S-DS-6.7B_method_I_t0.2": {
-            "class_partial_success": 0.53,
+            "class_partial_success": 0.55,
             "class_success": 0.3,
-            "fun_partial_success": 0.7669322709163346,
-            "fun_success": 0.6254980079681275
+            "fun_partial_success": 0.8027888446215139,
+            "fun_success": 0.647410358565737
         },
         "deepseek-coder-6.7b-instruct_class_H_t0.2": {
-            "class_partial_success": 0.56,
+            "class_partial_success": 0.57,
             "class_success": 0.32,
-            "fun_partial_success": 0.7768924302788844,
-            "fun_success": 0.6274900398406374
+            "fun_partial_success": 0.7948207171314741,
+            "fun_success": 0.6374501992031872
         },
         "deepseek-coder-6.7b-instruct_method_C_t0.2": {
             "class_partial_success": 0.51,
             "class_success": 0.28,
-            "fun_partial_success": 0.7629482071713147,
-            "fun_success": 0.5976095617529881
+            "fun_partial_success": 0.7828685258964143,
+            "fun_success": 0.6135458167330677
         },
         "deepseek-coder-6.7b-instruct_method_I_t0.2": {
-            "class_partial_success": 0.51,
-            "class_success": 0.3,
-            "fun_partial_success": 0.7350597609561753,
-            "fun_success": 0.5816733067729084
+            "class_partial_success": 0.54,
+            "class_success": 0.31,
+            "fun_partial_success": 0.7649402390438247,
+            "fun_success": 0.599601593625498
         },
         "CodeLlama-13b-Instruct-hf_class_H_t0.2": {
-            "class_partial_success": 0.43,
-            "class_success": 0.27,
-            "fun_partial_success": 0.6633466135458167,
-            "fun_success": 0.5079681274900398
+            "class_partial_success": 0.45,
+            "class_success": 0.28,
+            "fun_partial_success": 0.6673306772908366,
+            "fun_success": 0.5039840637450199
         },
         "CodeLlama-13b-Instruct-hf_method_C_t0.2": {
-            "class_partial_success": 0.39,
-            "class_success": 0.17,
-            "fun_partial_success": 0.7390438247011952,
-            "fun_success": 0.5298804780876494
+            "class_partial_success": 0.45,
+            "class_success": 0.21,
+            "fun_partial_success": 0.7868525896414342,
+            "fun_success": 0.5796812749003984
         },
         "CodeLlama-13b-Instruct-hf_method_I_t0.2": {
-            "class_partial_success": 0.1,
-            "class_success": 0.03,
-            "fun_partial_success": 0.36254980079681276,
-            "fun_success": 0.20717131474103587
+            "class_partial_success": 0.42,
+            "class_success": 0.22,
+            "fun_partial_success": 0.749003984063745,
+            "fun_success": 0.5617529880478087
         },
         "WizardCoder-15B-V1.0_class_H_t0.2": {
             "class_partial_success": 0.35,
             "class_success": 0.2,
-            "fun_partial_success": 0.5099601593625498,
-            "fun_success": 0.36254980079681276
+            "fun_partial_success": 0.5219123505976095,
+            "fun_success": 0.36852589641434264
         },
         "WizardCoder-15B-V1.0_method_C_t0.2": {
             "class_partial_success": 0.39,
             "class_success": 0.19,
-            "fun_partial_success": 0.7430278884462151,
-            "fun_success": 0.5398406374501992
+            "fun_partial_success": 0.7589641434262948,
+            "fun_success": 0.5517928286852589
         },
         "WizardCoder-15B-V1.0_method_I_t0.2": {
             "class_partial_success": 0.17,
             "class_success": 0.07,
-            "fun_partial_success": 0.5916334661354582,
-            "fun_success": 0.398406374501992
+            "fun_partial_success": 0.6075697211155379,
+            "fun_success": 0.4063745019920319
         },
         "starcoder-gpteacher-code-instruct-15B_class_H_t0.2": {
             "class_partial_success": 0.21,
             "class_success": 0.12,
-            "fun_partial_success": 0.42828685258964144,
-            "fun_success": 0.27091633466135456
+            "fun_partial_success": 0.4402390438247012,
+            "fun_success": 0.27689243027888444
         },
         "starcoder-gpteacher-code-instruct-15B_method_C_t0.2": {
             "class_partial_success": 0.15,
             "class_success": 0.09,
-            "fun_partial_success": 0.5,
-            "fun_success": 0.3247011952191235
+            "fun_partial_success": 0.5159362549800797,
+            "fun_success": 0.3346613545816733
         },
         "starcoder-gpteacher-code-instruct-15B_method_I_t0.2": {
             "class_partial_success": 0.2,
             "class_success": 0.13,
-            "fun_partial_success": 0.547808764940239,
-            "fun_success": 0.36254980079681276
+            "fun_partial_success": 0.5597609561752988,
+            "fun_success": 0.36852589641434264
         },
         "instruct-codegen-16B_class_H_t0.2": {
             "class_partial_success": 0.15,
             "class_success": 0.09,
-            "fun_partial_success": 0.3645418326693227,
-            "fun_success": 0.20717131474103587
+            "fun_partial_success": 0.37649402390438247,
+            "fun_success": 0.21115537848605578
         },
         "instruct-codegen-16B_method_C_t0.2": {
             "class_partial_success": 0.15,
             "class_success": 0.06,
-            "fun_partial_success": 0.448207171314741,
-            "fun_success": 0.26095617529880477
+            "fun_partial_success": 0.46613545816733065,
+            "fun_success": 0.2749003984063745
         },
         "instruct-codegen-16B_method_I_t0.2": {
             "class_partial_success": 0.22,
             "class_success": 0.12,
-            "fun_partial_success": 0.5856573705179283,
-            "fun_success": 0.3844621513944223
+            "fun_partial_success": 0.6075697211155379,
+            "fun_success": 0.39641434262948205
         },
         "codegeex2-6b_class_H_t0.2": {
             "class_partial_success": 0.26,
             "class_success": 0.15,
-            "fun_partial_success": 0.4362549800796813,
+            "fun_partial_success": 0.43824701195219123,
             "fun_success": 0.3187250996015936
         },
         "codegeex2-6b_method_C_t0.2": {
@@ -831,26 +777,26 @@
         "codegeex2-6b_method_I_t0.2": {
             "class_partial_success": 0.0,
             "class_success": 0.0,
-            "fun_partial_success": 0.0099601593625498,
+            "fun_partial_success": 0.01195219123505976,
             "fun_success": 0.0
         },
         "santacoder-1.1B_class_H_t0.2": {
             "class_partial_success": 0.02,
             "class_success": 0.0,
-            "fun_partial_success": 0.1394422310756972,
-            "fun_success": 0.00597609561752988
+            "fun_partial_success": 0.1454183266932271,
+            "fun_success": 0.0099601593625498
         },
         "santacoder-1.1B_method_C_t0.2": {
             "class_partial_success": 0.1,
             "class_success": 0.0,
-            "fun_partial_success": 0.5278884462151394,
-            "fun_success": 0.2689243027888446
+            "fun_partial_success": 0.547808764940239,
+            "fun_success": 0.2788844621513944
         },
         "santacoder-1.1B_method_I_t0.2": {
             "class_partial_success": 0.2,
             "class_success": 0.12,
-            "fun_partial_success": 0.6095617529880478,
-            "fun_success": 0.36852589641434264
+            "fun_partial_success": 0.6274900398406374,
+            "fun_success": 0.37649402390438247
         },
         "PolyCoder-2.7B_class_H_t0.2": {
             "class_partial_success": 0.01,
@@ -861,14 +807,14 @@
         "PolyCoder-2.7B_method_C_t0.2": {
             "class_partial_success": 0.04,
             "class_success": 0.0,
-            "fun_partial_success": 0.38247011952191234,
-            "fun_success": 0.09760956175298804
+            "fun_partial_success": 0.39641434262948205,
+            "fun_success": 0.10358565737051793
         },
         "PolyCoder-2.7B_method_I_t0.2": {
             "class_partial_success": 0.02,
             "class_success": 0.02,
-            "fun_partial_success": 0.3944223107569721,
-            "fun_success": 0.16135458167330677
+            "fun_partial_success": 0.40836653386454186,
+            "fun_success": 0.16334661354581673
         }
     }
 }
